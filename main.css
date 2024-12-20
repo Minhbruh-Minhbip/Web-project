@@ -19,7 +19,7 @@ body{
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
 .picktopblock {
-    width: 200px; /* Chiều rộng */
+    width: 175px; /* Chiều rộng */
     height: 30px; /* Chiều cao */
     background-color: #929292; /* Màu nền */
     border-radius: 20px;
