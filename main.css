@@ -4,3 +4,9 @@ a{
 body{
     background-color: dimgrey;
 }
+.block {
+    width: 200px; /* Chiều rộng */
+    height: 100px; /* Chiều cao */
+    background-color: #99df3d; /* Màu nền */
+    border: 2px solid #000; /* Viền */
+  }
