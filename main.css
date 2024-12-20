@@ -5,8 +5,23 @@ body{
     background-color: dimgrey;
 }
 .block {
+    width: 400px; /* Chiều rộng */
+    height: 700px; /* Chiều cao */
+    background-color: #ffffff; /* Màu nền */
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  }
+.topblock {
+    width: 150px; /* Chiều rộng */
+    height: 25px; /* Chiều cao */
+    background-color: #696969; /* Màu nền */
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  }
+.picktopblock {
     width: 200px; /* Chiều rộng */
-    height: 100px; /* Chiều cao */
-    background-color: #99df3d; /* Màu nền */
-    border: 2px solid #000; /* Viền */
+    height: 30px; /* Chiều cao */
+    background-color: #929292; /* Màu nền */
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
