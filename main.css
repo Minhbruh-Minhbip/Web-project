@@ -11,6 +11,16 @@ a1{
 body{
     background-color: dimgrey;
 }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
 .block {
     width: 400px; /* Chiều rộng */
     height: 700px; /* Chiều cao */
