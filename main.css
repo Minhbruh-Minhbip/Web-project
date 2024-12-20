@@ -1,6 +1,7 @@
 a{
     color: aqua;
     text-decoration: none;
+    text-align: center;
 }
 body{
     background-color: dimgrey;
@@ -8,7 +9,7 @@ body{
 .block {
     width: 400px; /* Chiều rộng */
     height: 700px; /* Chiều cao */
-    background-color: #ffffff; /* Màu nền */
+    background-color: #d4c7c7; /* Màu nền */
     border-radius: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
