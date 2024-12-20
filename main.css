@@ -3,6 +3,11 @@ a{
     text-decoration: none;
     text-align: center;
 }
+a1{
+    color: rgb(66, 31, 122);
+    text-decoration: none;
+    text-align: center;
+}
 body{
     background-color: dimgrey;
 }
