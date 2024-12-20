@@ -3,11 +3,6 @@ a{
     text-decoration: none;
     text-align: center;
 }
-a1{
-    color: rgb(66, 31, 122);
-    text-decoration: none;
-    text-align: center;
-}
 body{
     background-color: dimgrey;
 }
@@ -24,7 +19,7 @@ body{
 .block {
     width: 400px; /* Chiều rộng */
     height: 700px; /* Chiều cao */
-    background-color: #d4c7c7; /* Màu nền */
+    background-color: #a78686; /* Màu nền */
     border-radius: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
