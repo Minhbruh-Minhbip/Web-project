@@ -7,14 +7,14 @@ body{
     background-color: dimgrey;
 }
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 0px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+  display: flex; /* Bật chế độ Flexbox */
+  flex-wrap: wrap; /* Cho phép các phần tử con tự xuống dòng nếu không đủ chỗ */
+  justify-content: space-evenly; /* Căn đều khoảng cách giữa các phần tử con */
+  gap: 0px; /* Khoảng cách giữa các phần tử con là 0 */
+  padding-bottom: 50px; /* Khoảng cách dưới container là 50px */
+  padding-top: 20px; /* Khoảng cách trên container là 20px */
+  padding-left: 150px; /* Khoảng cách bên trái container là 150px */
+  padding-right: 150px; /* Khoảng cách bên phải container là 150px */
 }
 .block {
     width: 400px; /* Chiều rộng */
