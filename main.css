@@ -1,4 +1,6 @@
 a{
+  display: flex;
+  justify-content: center;
     color: aqua;
     text-decoration: none;
 }
@@ -10,42 +12,69 @@ body{
   flex-wrap: wrap; /* Cho phép các phần tử con tự xuống dòng nếu không đủ chỗ */
   justify-content: space-evenly; /* Căn đều khoảng cách giữa các phần tử con */
   gap: 0px; /* Khoảng cách giữa các phần tử con là 0 */
-  padding-bottom: 50px; /* Khoảng cách dưới container là 50px */
-  padding-top: 20px; /* Khoảng cách trên container là 20px */
-  padding-left: -10px; /* Khoảng cách bên trái container là 150px */
-  padding-right: 10px; /* Khoảng cách bên phải container là 150px */
+  padding-bottom: 0px; /* Khoảng cách dưới container là 50px */
+  padding-top: 0px; /* Khoảng cách trên container là 20px */
+  padding-left: 0px; /* Khoảng cách bên trái container là 150px */
+  padding-right: 0px; /* Khoảng cách bên phải container là 150px */
 }
 .block {
     display: inline-block;
     width: 600px; /* Chiều rộng */
     height: 700px; /* Chiều cao */
-    background-color: #a78686; /* Màu nền */
+    background-color: #815151; /* Màu nền */
     border-radius: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Ẩn phần hình ảnh bị thừa */
+    img {
+      margin-top: 70px;
+      margin-left: 65px;
+    }
   }
 .topblock {
     display: inline-block;
-    width: 150px; /* Chiều rộng */
+    width: 75px; /* Chiều rộng */
     height: 25px; /* Chiều cao */
-    background-color: #696969; /* Màu nền */
+    background-color: #5a5a5a; /* Màu nền */
     border-radius: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
 .picktopblock {
     display: inline-block;
-    width: 175px; /* Chiều rộng */
+    width: 100px; /* Chiều rộng */
     height: 30px; /* Chiều cao */
-    background-color: #929292; /* Màu nền */
+    background-color: #f1dfdf; /* Màu nền */
     border-radius: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
 .link_text {
     display: flex;
     justify-content: center;
-    line-height: 1000px;
+    line-height: 200px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    align-items: flex-end; 
+}
+.tabblock {
+    background-color: black; /* Nền đen */
+    padding: 20px;          /* Khoảng cách bên trong */
+}
+.downblock {
+  display: inline-block;
+  width: 125px; /* Chiều rộng */
+  height: 25px; /* Chiều cao */
+  background-color: #5a5a5a; /* Màu nền */
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
