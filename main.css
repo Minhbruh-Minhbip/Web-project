@@ -4,6 +4,12 @@ a{
     color: aqua;
     text-decoration: none;
 }
+a:hover {
+  color: crimson;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
 body{
     background-color: dimgrey;
 }
