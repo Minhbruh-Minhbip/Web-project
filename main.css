@@ -25,7 +25,7 @@ body{
 }
 .block {
     display: inline-block;
-    width: 300px; /* Chiều rộng */
+    width: 500px; /* Chiều rộng */
     height: 700px; /* Chiều cao */
     background-color: #815151; /* Màu nền */
     border-radius: 20px;
